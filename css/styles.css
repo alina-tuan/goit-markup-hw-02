@@ -1,6 +1,54 @@
-/* основной цвет  */
-/* цвет текста */
-/* цвет акцента */
-.site-nav-list .nav-link-current {
-color: #2196F3;
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+}
+body {
+    color: #212121;
+    background-color: #FFFFFF;
+}
+ul {
+    list-style: none;
+}
+.logo {
+    color: var(--accent-color);
+}
+.site-nav-list .site-nav-link-current {
+    color: var(--accent-color);
+}
+.site-nav-list .site-nav-link:hover, 
+.site-nav-list .site-nav-link:focus {
+    color: var(--accent-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.peculiarities-title {
+    color: var(--title-color);
+}
+.peculiarities-item {
+    color: var(--text-color);
+}
+.section-title {
+    color: var(--title-color);
+}
+.team-member-name {
+    color: var(--title-color);
+}
+.team-member-position {
+    color: var(--text-color);
+}
+.adress {
+    color: #FFFFFF;
+}
+.adress-link {
+    color: var(--text-color);
 }
